@@ -25,9 +25,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Um blog dedicado à infraestrutura de TI, ferramentas open-source e automação. Compartilhando insights e soluções práticas.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://celorissi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: "@celorissi"
+twitter_username: "celorissi"
 github_username: "celorissi"
-linkedin_username: "seu-linkedin"
+linkedin_username: "marcelorr"
 
 # Build settings
 theme: minima
