@@ -1,3 +1,4 @@
+---
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -21,19 +22,19 @@
 title: Rissi na Infra
 email: celo.rissi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Um blog dedicado à infraestrutura de TI, ferramentas open-source e automação. Compartilhando insights e soluções práticas.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://celorissi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @celorissi
-github_username:  celorissi
-
+twitter_username: "@celorissi"
+github_username: "celorissi"
+linkedin_username: "seu-linkedin"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -43,14 +44,17 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Additional configurations
+# Add favicon
+favicon: "/path/to/favicon.ico"
+
+# Add Google Analytics placeholder
+analytics: "UA-XXXXX-Y"
